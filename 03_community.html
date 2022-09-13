@@ -55,8 +55,8 @@
     <div class="text-center fs-1 my-5">
         Community
     </div>
-    <div class="container-fluid row d-flex justify-content-evenly" style="background-size: cover;">
-        <aside class="col-12 col-lg-3">
+    <div class="container-fluid row parent" style="background-size: cover;">
+        <aside class="child left">
             <ul class="list-group">
                 <li class="list-group-item"><a href="!#" class="text-decoration-none py-3">Boxoffice</a></li>
                 <li class="list-group-item"><a href="!#" class="text-decoration-none py-3">Movies</a></li>
@@ -64,8 +64,8 @@
                 <li class="list-group-item"><a href="!#" class="text-decoration-none py-3">Actors</a></li>
             </ul>
         </aside>
-        <section class="d-flex flex-column col-12 col-lg-6">
-            <table id="table" class="table table-striped mintable flex-column" data-min-width="992" data-mobile-responsive="true">
+        <section class="d-flex flex-column child right">
+            <table id="table" class="table mintable">
                 <thead>
                     <th>영화 제목</th>
                     <th>글 제목</th>
@@ -77,43 +77,44 @@
                         <td class="minicardtitle">Great Movie title</td>
                         <td class="minicardhead">Best Movie Ever</td>
                         <td class="minicarduser">user</td>
-                        <td>1 minute ago</td>
+                        <td class="minicardupdate">1 minute ago</td>
                     </tr>
                     <tr class="minicard">
                         <td class="minicardtitle">Great Movie title</td>
                         <td class="minicardhead">Movie Test</td>
                         <td class="minicarduser">user</td>
-                        <td>1 minute ago</td>
+                        <td class="minicardupdate">1 minute ago</td>
                     </tr>
                     <tr class="minicard">
                         <td class="minicardtitle">Great Movie title</td>
                         <td class="minicardhead">Movie Test</td>
                         <td class="minicarduser">user</td>
-                        <td>1 minute ago</td>
+                        <td class="minicardupdate">1 minute ago</td>
                     </tr>
                     <tr class="minicard">
                         <td class="minicardtitle">Great Movie title</td>
                         <td class="minicardhead">Movie Test</td>
                         <td class="minicarduser">user</td>
-                        <td>1 minute ago</td>
+                        <td class="minicardupdate">1 minute ago</td>
                     </tr>
                     <tr class="minicard">
                         <td class="minicardtitle">Great Movie title</td>
                         <td class="minicardhead">Movie Test</td>
                         <td class="minicarduser">user</td>
-                        <td>1 minute ago</td>
+                        <td class="minicardupdate">1 minute ago</td>
                     </tr>
                 </tbody>
                 </nav>
             </table>
             <nav aria-label="Page navigation example d-flex">
                 <ul class="pagination justify-content-center">
-                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#"><</a></li>
                     <li class="page-item"><a class="page-link" href="#">1</a></li>
                     <li class="page-item"><a class="page-link" href="#">2</a></li>
                     <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    <li class="page-item"><a class="page-link" href="#">></a></li>
                 </ul>
+            </nav>
         </section>
     </div>
 
